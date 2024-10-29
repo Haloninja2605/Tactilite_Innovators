@@ -3,7 +3,7 @@ from playsound import playsound
 import tempfile
 import os
 
-text = "hello,jaan log"
+text = "hello"
 
 def do_tts(text):
     tts=gTTS(text)  #initialize object
